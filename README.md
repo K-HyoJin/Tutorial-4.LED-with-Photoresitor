@@ -35,12 +35,12 @@ iterator 시작
 ``` analog_value = analog_input.read() ```\
 button과 연결된 2번핀의 입력을 읽어와서 변수 switch에 저장
 
-```
+```\
 if analog_value is None: 
   time.sleep(3)
   break  
 ``` 
-입력으로 들어온 analog_value값이 None이면 지연시키고 if문에서 빠져나옴\
+입력으로 들어온 analog_value값이 None이면 지연시키고 if문에서 빠져나옴
 
 ```
 if analog_value > 0.1:
