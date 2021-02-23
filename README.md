@@ -33,7 +33,7 @@ pyfirmata의 아두이노 모듈을 사용하기 위해 import함
 iterator 시작
 
 ``` analog_value = analog_input.read() ```\
-button과 연결된 2번핀의 입력을 읽어와서 변수 switch에 저장
+Photoresistor 연결된 0번핀의 입력을 읽어와서 변수 analog_value에 저장
 
 ```\
 if analog_value is None: 
