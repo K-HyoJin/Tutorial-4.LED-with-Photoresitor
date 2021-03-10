@@ -51,3 +51,4 @@ if analog_value < 0.1:
 ```
 analog_value값이 0.1보다 크면 led가 켜지도록 1을 입력으로 줌\
 analog_value값이 0.1보다 작으면 led가 꺼지도록 0을 입력으로 줌
+
